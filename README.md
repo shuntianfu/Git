@@ -10,7 +10,7 @@ git branch -M main
 git remote add origin https://github.com/shuntianfu/Git.git
 git push -u origin main
 
-…or push an existing repository from the command line
+## push an existing repository from the command line
 
 git remote add origin https://github.com/shuntianfu/Git.git
 git branch -M main
