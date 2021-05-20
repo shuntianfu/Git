@@ -13,7 +13,7 @@ git add -A
 
 # commit
 
-git commit -m "<message>
+git commit -m <message>
 
 # push to github <name> branch
 
