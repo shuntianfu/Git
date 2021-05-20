@@ -1,0 +1,71 @@
+
+# back to not be modified
+
+git checkout <filename>
+
+# modify commit message, this will change git history, because message is a part of commit.
+
+git commit --amend -m "<message>"
+
+# or 
+
+git commit --amend
+
+# log of the change of files.
+
+git log --stat
+
+# copy commit branch_1 -> branch_2
+
+# in branch_1
+
+git log
+
+# copy segment of hash
+
+git checkout branch_2
+
+git cherry-pick <hash>
+
+# back to one of commit
+
+## commit -> stage -> work, one step
+
+git reset --soft <hash of commit>
+
+## commit -> work
+
+git reset <hash of commit>
+
+## commit -> hash of commit spicfiy, tracked file is gone, untracked file is still there.
+
+git reset --hard <hash of commit>
+
+## remove untracked file.
+
+git clean -df
+
+##############################
+
+
+# git commits collect garbage after thirty days.
+
+# reference log
+
+git reflog
+
+git checkout <that hash>
+
+git branch backup
+
+#########################
+
+
+# create new commit, keep history(hash) same.
+
+git revert <hash>
+
+# show difference of hash.
+
+git diff <hash> <hash>
+
