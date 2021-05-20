@@ -1,0 +1,8 @@
+
+# Where to put follow command.
+
+git reset
+
+git diff
+
+git log
