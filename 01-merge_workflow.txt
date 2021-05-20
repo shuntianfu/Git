@@ -1,0 +1,36 @@
+
+# create branch
+
+git branch <name>
+
+# change branch to <name>
+
+git checkout <name>
+
+# stage
+
+git add -A
+
+# commit
+
+git commit -m "<message>
+
+# push to github <name> branch
+
+git push -u origin <name>
+
+# change to branch main
+
+git checkout main
+
+# pull from github main
+
+git pull origin main
+
+# merge branch
+
+git merge <name>
+
+# push to github main
+
+git push origin main
