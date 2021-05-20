@@ -1,0 +1,14 @@
+
+# check version
+
+git --version
+
+# set config values
+
+git config --global user.name "<name>"
+
+git config --global user.email "<email>"
+
+# check config
+
+git config --list
